@@ -1,0 +1,79 @@
+    1  git config --global user.name"nmalli"
+    2  git config --global user.emailnmallik999@gmail.com
+    3  git config --list
+    4  git config --global user.name "nmalli"
+    5  git config --global user.email nmallik999@gmail.com
+    6  git config --list
+    7  pwd
+    8  mkdir Training
+    9  cd Training
+   10  pwd
+   11  mkdir FirstRepo
+   12  cd FirstRepo/
+   13  pwd
+   14  git init
+   15  pwd
+   16  cd Training/FirstRepo/
+   17  pwd
+   18  git config --list
+   19  vi file1.txt
+   20  vi file2.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -am "my first commit"
+   25  git status
+   26  git log
+   27  vi file3.txt
+   28  git status
+   29  vi file1.txt 
+   30  git status
+   31  git add .
+   32  git commit -am "c2:mysecond commit"
+   33  git log --oneline
+   34  git remote add origin https://github.com/nmallik/FirstRepo.git
+   35  git push -u origin master
+   36  cd ..
+   37  pwd
+   38  git clone https://github.com/nmallik/SecondRepo.git
+   39  cd SecondRepo/
+   40  vi file4.txt
+   41  ll
+   42  vi file4.txt
+   43  git status
+   44  ll
+   45  pwd
+   46  vi test.txt
+   47  git status
+   48  git rm .file4.txt.swo .file4.txt.swp
+   49  ll
+   50  ls -lrta
+   51  rm .file4.txt.swp
+   52  rm .file4.txt.swo
+   53  ls -lrta
+   54  git status
+   55  git add test.txt
+   56  git commit -am 
+   57  git commit 
+   58  git log --oneline
+   59  git push
+   60  history
+   61  history>commands.txt Desktop
+   62  pwd
+   63  history>commands.txt 
+   64  ls -lrta
+   65  git status
+   66  git add commands.txt
+   67  git commit -am "commands"
+   68  git log
+   69  git log
+   70  ssh-keygen -t rsa -C "nmalli999@gmail.com"
+   71  ssh -T git@github.com
+   72  cd ..
+   73  pwd
+   74  mkdir Blogs
+   75  ls -lrta
+   76  cd Blogs/
+   77  ls -lrta
+   78  git init
+   79  history>info.txt
