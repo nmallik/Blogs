@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Myname is mallikarjuna
+=======
+Hey Malik!,
+>>>>>>> 93f0389931e192249a74516e49377ed2f26b2572
